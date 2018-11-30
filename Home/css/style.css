@@ -1,0 +1,250 @@
+body{
+	margin:0px;
+	font-family: Bunny Funny;
+	 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+	background: url('../imagem/blackstars.png') center center no-repeat fixed;
+  background-size: cover;
+}
+
+@font-face{
+	font-family: Bunny Funny;
+	src: url('../fonts/BunnyFunny.ttf');
+}
+@font-face{
+	font-family: Phoresta;
+	src: url('../fonts/Phoresta.ttf');
+}
+
+
+.sec-topo{
+		
+		max-width:100%;
+		height: 54em; /* heght:100vh; - deixa a imagem na tela inteira */
+		background:url('../imagem/green-space.jpg');
+		background-size: cover;
+		background-position: center center;
+		background-attachment: fixed;
+}
+
+
+
+
+nav {
+    margin-top: -30px;
+    height: 4em;
+}
+
+
+nav ul{
+	display: -webkit-box;
+	padding-left: 5%;
+	background-color: rgba(0,0,0,.3);
+	padding-top: 3%;
+	max-height: 80%; /* placeholder ....... */
+}
+
+nav ul li{
+	list-style-type: none;
+	padding: 0% 4%;
+
+}
+
+nav ul li a{
+	margin:0px 10px;
+	text-decoration:none;
+	color: white;
+	font-size: 169%;
+}	
+
+.fa-cog{
+	display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 173% !important;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-left: 98% !important;
+}
+
+
+a:hover {
+	color: #008000 !important;
+	cursor: pointer; 
+	text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+}
+
+
+
+.intro {
+	margin-top: 5em;
+    text-align: center;
+	color: white;
+	font-size: 513%;
+	font-family: Phoresta;
+	text-shadow: 2px 0 0 #000000, -2px 0 0 #000000, 0 2px 0 #000000, 0 -2px 0 #000000, 1px 1px #000000, -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000;
+	
+}
+#not1 {
+	position: relative;
+	width: 200px;
+	height: 100px;
+	background: url('../imagem/not1.jpg');
+}
+
+#not1 .text1 {
+	position: absolute;
+	bottom: 0px;
+}
+
+img.icone{
+	width: 85px;
+	height: 70px;
+	padding-right: 10%;
+	top: -21px;
+    position: relative;
+}
+
+img.icone:hover{
+	transform: rotateZ(-30deg) scale(1.7) ;
+	transition:all 0.5s ease;
+}
+
+
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+	padding-top: 5%;
+	width: 33%;
+	height: 33%;
+	font-size: 20px;
+}
+.centered {
+	margin-top:24%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+	color: white;
+	font-size: 176%;
+}
+
+.figu div {
+	float: left;
+}
+
+img.img{
+		width: 14em;
+		
+}
+
+.img:hover{
+		width: 60%;
+		transition:all 0.5s ease;
+}
+.sec-form{
+	height:33em;
+	width:100%;
+	max-height:100%;
+	font-size: 130%;
+	margin-top: 5%;
+	color: black;
+	text-shadow: 2px 0 0 #207a20, -2px 0 0 #207a20, 0 2px 0 #207a20, 0 -2px 0 #207a20, 1px 1px #207a20, -1px -1px 0 #207a20, 1px -1px 0 #207a20, -1px 1px 0 #207a20;
+
+}
+
+
+.sec-form .centro{
+		max-width:100%;
+		margin:0%;
+		display:table;
+		float:left;
+	}
+	
+	.centro {
+		left: 20%;
+		width: 50%;
+		
+	}
+	
+	.contato{
+	top: 30%;
+	position: relative;
+	left: 25%;
+	    width: 73%;
+	}
+	
+	.cposition {
+		float: right;
+		height: 100%;
+		width: 50%;
+		right: 100%;
+		color: black;
+	}
+	
+	.caixas {
+		left:35%;
+		position: relative;
+	}
+	
+	.tx{
+		width:400px;
+		height:50px;
+		padding-left:10px;
+		margin-bottom: 5%;
+		border: 5px solid #207a20;
+		border-radius: 25px;
+		background: rgba(255,255,255,.3);
+	}
+	
+	.ta{
+		height:150px;		
+	}
+	.lb{
+		display: block;
+	}
+	.bt{
+		border:none;
+		background:#008000;
+		color:black;
+		border-radius:13px;
+		float:right;
+		margin-top:10px;
+		padding:10px 20px;
+		font-size:16px;
+		margin-right: 52%;
+		font-weight: bold;
+		font-family: Verdana;
+	}
+	.bt:hover{
+		cursor:point;
+		background:black;
+		color: #008000;
+		border: 1px solid #008000;
+	}
+
+	footer{
+			background-color: #008000;
+			padding-top:2%;
+			margin-top: 2%;
+	}
+	
+	.mapa{
+		max-width: 76%;
+		margin-top: 27%;
+		left: 24%;
+		position: relative;
+	}
+	
+	iframe{
+		border-radius: 10px;
+		width: 60%;
+		height: 450px; 
+		border: 10px solid #008000;
+		margin-top: 10%;
+	}
+	
+		
