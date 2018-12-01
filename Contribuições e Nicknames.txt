@@ -1,0 +1,6 @@
+Contribuições:
+_______________________________________________________________________________________
+kctqporra = Jonathan - Design gráfico, photoshop, parte em CSS e fontes.
+wertysopli = Gustavo Stok - Principalmente HTML, parte em CSS, página no Facebook e Twitter.
+WolfSpiritDL = Thiago Gramorelli - Principalmente CSS, parte em HTML e Wireframes. 
+_______________________________________________________________________________________
